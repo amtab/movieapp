@@ -16,9 +16,6 @@ font-family: 'Titillium Web', sans-serif;
   background-color: azure;
   padding: 3%
 }
-.pure-button {
-
-           background: rgb(28, 184, 65); /* this is a green */
 
 }
  p{
@@ -31,4 +28,10 @@ h2 {
 
 body {
   background-color: #2C3539;
+}
+
+.pure-button {
+  color: green;
+           border-radius: 10px;
+           text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 }

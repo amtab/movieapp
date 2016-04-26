@@ -35,10 +35,9 @@ function runSearch(userText){
       console.log(movie);
       //document.write(movie.Title);
       $('.results-area').append('<div class="movie-result">');
-      $('.results-area').append('<h3>' + movie.Title + '</h3>' );
-      $('.results-area').append('<p>' + movie.Year + '</p>' + '<br>');
+      $('.results-area').append('<h3>' + movie.Title + ' (' + movie.Year + ')</h3>' );
       $('.results-area').append('<img src = '+ movie.Poster +' >' +'<br>');
-      $('.results-area').append('<a href ="http://www.imdb.com/title/'+movie.imdbDB + ' ">IMDB</a>');
+      $('.results-area').append('<a href ="http://www.imdb.com/title/'+movie.imdbDB + ' ">Link to IMDB</a>');
       $('.results-area').append('</div>');
     });
   });
