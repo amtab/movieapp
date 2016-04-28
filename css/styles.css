@@ -1,13 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web);
 
 
-#bg {
-  position: fixed;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  min-height: 100%;
+body {
+  background-image: url("https://newevolutiondesigns.com/images/freebies/galaxy-wallpaper-5.jpg");
 }
+
+
+
+
+
 
 h1{
 font-family: 'Titillium Web', sans-serif;
@@ -22,7 +23,7 @@ font-family: 'Titillium Web', sans-serif;
   width:90%;
   margin: 0px auto;
   max-width: 1000px;
-  background-color: azure;
+  background-color:  #ffe6ff;
   padding: 3%
 }
 
@@ -35,9 +36,6 @@ h2 {
   color:blue;
 }
 
-body {
-  background-color: #2C3539;
-}
 
 .pure-button {
   color: green;
