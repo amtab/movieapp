@@ -1,11 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web);
-.bg {
-    position: fixed;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
-}h1{
+
+
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+h1{
 font-family: 'Titillium Web', sans-serif;
      color: Blue;
      margin: auto;
